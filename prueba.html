@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+function desencriptar (){ 
+    var texto = document.querySelector("#input-texto").value; var textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
+ document.querySelector(".text-input-salida").value = textoCifrado; document.querySelector("#input-texto").value;
+
+}
+
+    console.log(desencriptar());
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
