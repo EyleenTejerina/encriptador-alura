@@ -72,18 +72,27 @@ str = str.replace('ñ','Ñ');
 
 return str;
 }
+function desencriptar(){
+       
+        var texto = document.querySelector("#cadenaEncriptar").value;
+        
+          
+        for(var i = 0; i <= texto.length; i ++){
+                var textoCifrado = texto.replace("enter", "e").replace("imes", "i").replace("ai", "a").replace("ober", "o").replace("ufat", "u");
+                document.querySelector("#mostrartexto").value = textoCifrado.replaceAll(",", "") ;
+                document.querySelector("#cadenaEncriptar").value;
+        
+        }
+        
+        (document.querySelector("#mostrartexto")).innerHTML= textoCifrado;
+        console.log("frase desencriptada" + textoCifrado);
+        
+        cadenaEncriptar.value="";
+        
+        
+        }   
 
-function desencriptar (){ 
-var texto = document.querySelector("#cadenaEncriptar").value;
 
-var textoCifrado = texto.replace("enter", "e").replace("imes", "i").replace("ai", "a").replace("ober", "o").replace("ufat", "u");
-document.querySelector("#mostrartexto").value = textoCifrado.replaceAll(",", "") ;
-document.querySelector("#cadenaEncriptar").value;
-
-(document.querySelector("#mostrartexto")).innerHTML= textoCifrado;
-cadenaEncriptar.value="";
-
-}
 
  
 
