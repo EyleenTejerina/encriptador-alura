@@ -42,7 +42,7 @@ body {
     font-size: 18px;
     font-style:initial;
 }
-#advertencia{
+#advertencia {
     position: absolute;
     width: 200px;
     left: 230px;
@@ -104,7 +104,7 @@ body {
     font-size: 16px;
     font-style:normal;
 }
-.recuadroIzquierdo2{
+.recuadroIzquierdo2 {
     position: absolute;
     width: 340px;
     height: 350px;
@@ -113,14 +113,14 @@ body {
 
 }
 
-.recuadroIzquierdo2 .textEncriptado{
+.recuadroIzquierdo2 .textEncriptado {
     border: #0A3871;
     border-radius: 15px;
     width: 60%;
     transition: 400ms;
     box-shadow: 8px 8px 25px 15px #D8DFE8;
 }
-.recuadroIzquierdo2 .copiarTexto{
+.recuadroIzquierdo2 .copiarTexto {
         display:inherit;
         padding: 10px 40px;
         margin: 50px;

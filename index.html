@@ -13,12 +13,10 @@
 </head>
 <body onload="ocultarEncriptador()">
     <header>
-    <img src="imagenes/logoAlura.jpg" alt="inicial de Alura" class="logo-principal">
+        <img src="imagenes/logoAlura.jpg" alt="inicial de Alura" class="logo-principal">
     </header>
     <main>
         <input type="text" value="" id = "cadenaEncriptar" class="textoIncriptado" required placeholder="Ingresa el texto aquí">
-        
-        
         <section>           
             <div class="recuadroIzquierdo" id="ocultar">
             <img src="imagenes/Muñeco.png" alt="presentacion de la incriptacion" class="imagenIzquierdo">
@@ -26,23 +24,19 @@
             <h5>Ingresa el texto que desees encriptar o desencriptar.</h5>
             </div>
         </section>
-
         <section>
             <div class="recuadroIzquierdo2" id="mostrar" >
 
                 <textarea cols="30" rows="30" class="textEncriptado" id="mostrartexto" required></textarea>
-    
                 <input type="button" onclick="copiarTextoEncriptado()" value="Copiar" id="copiartexto" class="copiarTexto">
             </div>
         </section>
-        
     </main>
     <footer>
        <div>
         <input type="button" onclick="encriptar()" value="Encriptar" class="encriptar">
         <span id="advertencia">&reg Solo letra minuscula y sin acentos </span>
         <input type="submit" onclick="desencriptar()" value="Desencriptar" class="desencriptar">
-        
        </div>
        
     </footer>
